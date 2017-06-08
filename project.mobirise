@@ -25,8 +25,10 @@
     "noImageResize": "",
     "google-analytics": "",
     "versionFirst": "3.12.1",
-    "uniqCompNum": 4,
-    "versionPublish": "3.12.1"
+    "uniqCompNum": 7,
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -66,13 +68,13 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#307193"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#3985ad!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#3d8eb9"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -94,7 +96,7 @@
           "_name": "menu",
           "_anchor": "menu-2",
           "_params": {
-            "bgColor": "#282828",
+            "bgColor": "#3d8eb9",
             "fontSize": "1.15",
             "fontName": {},
             "fontColor": "#ffffff",
@@ -109,7 +111,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-dolphin-170x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "index.html",
@@ -132,7 +134,7 @@
               "color": "#fff"
             },
             "H3": {
-              "font-size": "36px"
+              "font-size": "32px"
             },
             "P": {
               "font-size": "24px"
@@ -144,21 +146,21 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-1",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "36",
             "paddingTop": "3",
             "paddingBottom": "3",
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/okno-2000x1325.jpg",
             "bgColor": "#fff",
             "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": true,
+            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlayOpacity": "0.3",
+            "overlayColor": "#2969b0",
             "inverse": true,
             "showTitle": true,
             "showText": true,
@@ -186,24 +188,101 @@
               "size": 250
             }
           },
-          "title": "Приобрети моющие средства для стекл оптом по самой низкой цене на рынке.",
-          "text": "- Европейское качество<br><br>- Без разводов<br><br>- Без запаха<br><br><b>ЦЕНА 150 тг/шт</b><br><br><b><i>Минимальный заказ 100 шт</i></b>",
+          "title": "Распродажа профессиональных моющих средств для стекол «Crystal» 500 мл по складским ценам.",
+          "text": "<br>- Не оставляет разводов<br>- Придает блеск <br>- Оставляет приятный запах.<br><br><b>Только до 10 июля 2017 г:</b><br><br><b>Розница - 380 тенге/шт</b><br><b>Оптом - 245 тенге/шт</b> &nbsp;(от 120 шт – это 5 коробок), в коробке 24 шт.<br>При заказе от 20 коробок ( 480 шт) дополнительная скидка 10%<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_tags": [
             "Theme"
           ],
+          "_name": "header1",
+          "_anchor": "header1-5",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.6",
+            "overlayColor": "#00a885",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Профессиональные моющие средства марки «Dolphin»<br><br>Готовое к применению средство для мытья стекол, зеркал и глянцевых поверхностей.<br><br>Безупречная чистота и легкость в применении.<br><br>Долфин – качество больше чем на 100%<br><br>Высокое качество, экономично выгодно и оправдано.<br>100 % результат.<br><br>Производится согласно нормам и стандартам ЕС.<br><br>Производство Россия, г. Санкт –Питербург<br><br>При покупке моющего средства Кристал, скидка 10 % на любые другие моющие средства марки Долфин.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead P": {
+              "font-size": "23px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-6",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "bgColor": "#F2F2F2",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#2969b0",
+            "showTitle": false,
+            "showText": true,
+            "showButton": false
+          },
+          "title": "ARTICLE HEADER",
+          "text": "<p><b>Возможна доставка. Алматы от 6000 тг – бесплатно, </b></p><p><b>до 6000 тенге – 1000 тенге.</b></p><p><b>По регионам за счет покупателя.</b></p><p><b>Любые виды расчетов.</b></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
           "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            }
+          },
           "_anchor": "form1-3",
           "_params": {
-            "labelsColor": "#232323",
+            "labelsColor": "#ffffff",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a38f84",
+            "bgColor": "#3d8eb9",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -240,18 +319,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            "SMALL": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ОТПРАВИТЬ</a>"
         }
       ]
     }
