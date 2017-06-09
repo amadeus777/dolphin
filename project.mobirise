@@ -170,7 +170,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/img-20170517-wa0014-1400x2488.jpg",
+              "src": "@PROJECT_PATH@/assets/images/sredstvoforokon-1400x2333.jpg",
               "link": "",
               "alt": "",
               "title": "",
@@ -218,7 +218,7 @@
             "showButtons": false
           },
           "title": "FULL SCREEN INTRO",
-          "text": "Профессиональные моющие средства марки «Dolphin»<br><br>Готовое к применению средство для мытья стекол, зеркал и глянцевых поверхностей.<br><br>Безупречная чистота и легкость в применении.<br><br>Долфин – качество больше чем на 100%<br><br>Высокое качество, экономично выгодно и оправдано.<br>100 % результат.<br><br>Производится согласно нормам и стандартам ЕС.<br><br>Производство Россия, г. Санкт –Питербург<br><br>При покупке моющего средства Кристал, скидка 10 % на любые другие моющие средства марки Долфин.<br>",
+          "text": "Профессиональные моющие средства марки «Dolphin»<br><br>Готовое к применению средство для мытья стекол, зеркал и глянцевых поверхностей.<br><br>Безупречная чистота и легкость в применении.<br><br>Dolphin – качество больше чем на 100%<br><br>Высокое качество, экономично выгодно и оправдано.<br>100 % результат.<br><br>Производится согласно нормам и стандартам ЕС.<br><br>Производство Россия, г. Санкт –Питербург<br><br>При покупке моющего средства Crystal, скидка 10 % на любые другие моющие средства марки Dolphin.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
@@ -249,7 +249,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.8",
-            "overlayColor": "#2969b0",
+            "overlayColor": "#e25041",
             "showTitle": false,
             "showText": true,
             "showButton": false
